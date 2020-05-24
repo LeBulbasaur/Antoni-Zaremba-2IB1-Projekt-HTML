@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strzelnicaniepolomice</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-menu">
+
+        <div class="logo-area">
+            <a href="#"><img src="images/logo.png" alt="" width="100%"></a>
+        </div>
+
+        <div class="inner-main-menu">
+            <ul id="menu">
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="#" class="inventory">Inventory</a></li>
+                <li><a href="#" class="gallery">Gallery</a></li>
+                <li><a href="#" class="service">Service</a></li>
+                <li><a href="kontakt.html" class="contact">Contact</a></li>
+                <li><a href="#" class="facebook">f</a></li>
+                <li><a href="#" class="search"><img src="images/lupa.png" alt="lupa" id="lupa" width="15px"></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <br>
+
+        <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- The dots/circles -->
+        <div style="text-align:center" class="kropki">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/slider1.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/pociski.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/baner2.gif" style="width:100%">
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <br><br>
+
+    <div class="panel">
+        <img src="images/target.png" alt="cel" id="tarcza">
+
+        <div id="aboutus">
+            <p id="naglowek">ABOUT US</p>
+            <p id="tresc">We are qualified and experienced 
+                instructors as well as active competitors 
+                for sport, dynamic and combat shooting. 
+                We share a passion and our goal is 
+                to spread shooting as an interesting and 
+                pleasant form of recreation.</p>
+        </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div id="filmiq">
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/q-P-XuJLYDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="formik">
+        <form id="formularz">
+            <label for="email">E-mail:</label>
+            <input type="text" id="emailtxt" name="mail"><br><br>
+            <label for="topic">Topic:</label>
+            <input type="text" id="topictxt" name="temat"><br><br>
+            <label for="message" id="msglbl">Message:</label>
+            <input type="text" id="messagetxt" name="msg">
+        </form>
+
+        <p id="copyrights">Copyright © 2020 Antoni Zaremba</p>
+    </div>
+
+    <footer id="stopka">
+        <div id="stopa-menu">
+            <div class="inner-stopa-menu">
+                <ul id="stopa">
+                    <li><a href="#" class="stopatxt" id="policy">Policy</a></li>
+                    <li><a href="#" class="stopatxt">Language</a></li>
+                    <li><a href="#" class="zdj"><img src="images/UM_1.png"
+                        onmouseover="this.src='images/UM.png'"
+                        onmouseout="this.src='images/UM_1.png'"
+                        border="0" alt="" width="24px"/></a></li>
+                    <li><a href="#" class="zdj"><img src="images/PL_1.png"
+                        onmouseover="this.src='images/PL.png'"
+                        onmouseout="this.src='images/PL_1.png'"
+                        border="0" alt="" width="24px"/></a></li>
+                    <li><a href="#" class="zdj"><img src="images/ES_1.png"
+                        onmouseover="this.src='images/ES.png'"
+                        onmouseout="this.src='images/ES_1.png'"
+                        border="0" alt="" width="24px"/></a></li>
+                    <li><p class="stopatxt">Social Media</p></li>
+                    <li><a href="#" class="zdj"><img src="images/Twitter_1.png"
+                        onmouseover="this.src='images/Twitter.png'"
+                        onmouseout="this.src='images/Twitter_1.png'"
+                        border="0" alt="" width="24px"/></a></li>
+                    <li><a href="#" class="zdj"><img src="images/Instagram_1.png"
+                        onmouseover="this.src='images/Instagram.png'"
+                        onmouseout="this.src='images/Instagram_1.png'"
+                        border="0" alt="" width="24px"/></a></li>
+                    <li><a href="#" class="zdj" id="whatsapp"><img src="images/WhatsApp_1.png"
+                        onmouseover="this.src='images/WhatsApp.png'"
+                        onmouseout="this.src='images/WhatsApp_1.png'"
+                        border="0" alt="" width="24px"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
